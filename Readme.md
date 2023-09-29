@@ -4,22 +4,14 @@
 As stated in the related paper, we define **sigma** and **omega** parameters respectively for connections block dimension and for weights definition. Here we show the conversion from mathematical formulation to code variables names and values
 
 For sigma
-$$
-\sigma^1 \rightarrow sigma=1000
-\newline
-\sigma^5 \rightarrow sigma=5000
-\newline
-\sigma^N \rightarrow sigma=0
-$$
+<div style="text-align: center">
+<img src="docs_resources/img/sigma.png" width="180" height="100"/>
+</div>
 
 For omega
-$$
-\omega^u \rightarrow mode=0
-\newline
-\omega^w \rightarrow mode=1
-\newline
-\omega^m \rightarrow mode=2
-$$
+<div style="text-align: center">
+<img src="docs_resources/img/omega.png" width="180" height="100"/>
+</div>
 
 
 ## Environment Setup

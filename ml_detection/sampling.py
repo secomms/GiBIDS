@@ -11,7 +11,7 @@ test_perc = 0.7
 
 sigma = 1000
 mode = 0
-ds = 1
+ds = 0
 
 subdir_name = '/all_days'
 
@@ -19,8 +19,8 @@ subdir_name = '/all_days'
 if __name__ == "__main__":
 
     if ds == 0:  # CIC-IDS2017
-        dataset_path = (user_CIC_dirname + '/sna_datasets/rete_pesi_mode' + str(mode) +
-                        '/CIC_IDS_w' + str(sigma) + '.csv')
+        dataset_path = (user_CIC_dirname + gb_dir_name + subdir_name + '/sigma_' + str(sigma) + '/mode_' + str(mode) +
+                        '/CIC_IDS_s' + str(sigma) + '_mode' + str(mode) + '.csv')
         dataset = pd.read_csv(dataset_path)
         train_save_path = (user_CIC_dirname + gb_dir_name + subdir_name + '/sigma_' + str(sigma) + '/mode_' + str(mode) +
                            '/CIC_IDS_s' + str(sigma) + '_mode' + str(mode) + '_train.csv')
