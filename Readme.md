@@ -1,4 +1,28 @@
 # GiBIDS: Graph Based Intrusion Detection System
+## Associated publication
+
+This repository contains the code accompanying the scientific publication related to **GiBIDS**.
+
+The software is part of the **Graph Based Intrusion Detection System (GiBIDS)** international competitive project, funded by **GEANT Vereniging** under the **GEANT Innovation Programme 2023**.
+
+[Short project presentation](https://geant.app.box.com/s/gljivqppe3qepiacyfiaicuep2ok3tyy)
+
+If you use this repository in your research, please cite the associated paper:
+
+```bibtex
+@inproceedings{ZonneveldPB24,
+  title = {Using Graph Theory for Improving Machine Learning-based Detection of Cyber Attacks},
+  author = {Giacomo Zonneveld and Lorenzo Principi and Marco Baldi},
+  year = {2024},
+  doi = {10.1109/HPSR62440.2024.10635996},
+  url = {https://doi.org/10.1109/HPSR62440.2024.10635996},
+  pages = {191-196},
+  booktitle = {25th IEEE International Conference on High Performance Switching and Routing, HPSR 2024, Pisa, Italy, July 22-24, 2024},
+  publisher = {IEEE},
+  isbn = {979-8-3503-6385-2}
+}
+```
+
 
 ## Preliminary infos
 As stated in the related paper, we define **sigma** and **omega** parameters respectively for connections block dimension and for weights definition. Here we show the conversion from mathematical formulation to code variables names and values
